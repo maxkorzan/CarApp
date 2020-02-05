@@ -11,17 +11,22 @@ public class CarApp {
         c2.setColor("blue");
         c2.setModel("Jetta");
 
-//        System.out.println(c1);
+        Car c3 = new Car("yellow", "camaro");
+
+
         System.out.println(c1.getColor() +" "+c1.getModel());
         System.out.println(c1.start(c1));
         System.out.println(c1.accelerate(c1));
-        System.out.println(c1.setSpeed(90));
+        System.out.println(c1.setSpeed(c1, 90));
+        System.out.println(c1.stop(c1));
         System.out.println();
 
         System.out.println(c2.getColor() +" "+c2.getModel());
         System.out.println(c2.start(c2));
         System.out.println(c2.accelerate(c2));
-        System.out.println(c2.setSpeed(90));
+        System.out.println(c2.setSpeed(c2, 55));
+        System.out.println(c2.stop(c2));
+
 
 
     }

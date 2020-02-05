@@ -1,6 +1,6 @@
 public class Vehicle {
-    private String color;
-    private String model;
+    protected String color;
+    protected String model;
 
     public Vehicle(){
     }
