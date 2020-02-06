@@ -22,6 +22,8 @@ public class Vehicle {
         this.model = model;
     }
 
-
+    public String getDescription(){
+        return "Car: "+getModel()+"\nColor: "+getColor();
+    }
 
 }

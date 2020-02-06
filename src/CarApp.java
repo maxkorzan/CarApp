@@ -1,8 +1,6 @@
 public class CarApp {
     public static void main(String[] args) {
 
-//        Vehicle v = new Vehicle();
-
         Car c1 = new Car();
         c1.setColor("red");
         c1.setModel("Porsche");
